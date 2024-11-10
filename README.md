@@ -6,7 +6,7 @@ filaments like ABS.
 
 Why is this project important?
 because the 3d printer is the optimal rapid prototyping tool and thereby necessary for further
-open source development.
+open hardware development.
 This is not just supposed to be a fun to build hobbyist project but a capable and reliable tool,
 which is to be improved further by everyone who uses it and has improvement ideas.
 
