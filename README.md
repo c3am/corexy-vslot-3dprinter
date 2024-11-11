@@ -63,4 +63,10 @@ This makes the build easier and improves portability and robustness (see design 
 - stationary gantry
 the xy-gantry is stationary as this is more compact than a flying gantry (see design requirement 3)
 
-## build instructions
+## CAD software
+This project uses FreeCAD. All the CAD files are in the CAD folder.
+Currently there are no plugins you need to install to open any of the CAD files.
+There is one main assembly file where all the parts of the printer are integrated.
+You can't just download the assembly.FCStd file because it uses links to integrate all the other
+sub-assemblies or parts from the other files. You have to download the whole repository (or the CAD folder)
+in order to open the main assembly file.
