@@ -1,4 +1,7 @@
 # corexy vslot 3d-printer
+
+![the printer](images/bg)
+
 This 3d printer design is supposed to be a fully free and open source cheap and reliable printer
 that is easy to build and easy to source parts for.
 Also, it is supposed to have a decent print quality and speed and support higher temperature
