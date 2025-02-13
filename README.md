@@ -2,25 +2,23 @@
 
 ![the printer](images/CAD.png)
 
-Corexy is not only useful because of the low moving mass, but also because of the compact
-and easily enclosable form factor, but all the popular diy printers that use it are kind of
-expensive.
-So I designed a corexy 3d printer that uses v-wheels to make it cheap.
-When built with v-wheels for all the axes, the parts, including the raspberry pi,
-cost around 210Eur. When built with mgn9 linear rails for x and y, it costs around 30 Eur more.
-The build volume is (180mm)^3 but there may be a bigger version (220mm)^3 in the future.
+This printer is not being developed anymore, because I redesigned it from the ground up
+to use linear rails instead of v-wheels.
+This is the repo for the current version: [current repo](https://github.com/c3am/corexy-vslot-3dprinter)
+
+This printer is a cheap enclosed corexy 3d-printer that uses v-wheels.
+It has a 180mm cubed print volume and an air exhaust.
 
 ## design decisions
 - 2020 extrusions
 This printer uses 2020 aluminium v-slot extrusions because they are cheap and versitile.
 They allow you to mount anything to them easilly with T-nuts and can be solidly
 connected to each other using blind joints.
-One downside though is that for a straight connection they need to be cut very precisely at a 90deg angle.
 
 - enclosure
 The panels are designed to be lasercut.
-The front, side and top enclosure panels are made from 4mm transparent acrylic.
-The bottom and back panels are made from 5mm hdf(high density fiberboard) or any other 5mm panel.
+The front, side and top enclosure panels are made from 3mm transparent acrylic.
+The bottom and back panels are made from 3mm MDF or any other 3mm panel.
 
 - corexy motion system
 In a corexy motion system the motors do not move which reduces the moving mass.
@@ -30,8 +28,6 @@ Also, because there is no moving bed, corexy printers can have a very compact en
 
 - v-wheels
 V-wheels are cheaper than linear rails but might not be as durable/reliable in the long run.
-That is why this printer can be built with linear rails for the x and y axes which experience
-the most movement.
 
 - bed is supported on 4 corners
 This ensures that the bed is moving perpendicular to the xy-plane reliably.
