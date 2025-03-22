@@ -4,7 +4,7 @@
 
 This printer is not being developed anymore, because I redesigned it from the ground up
 to use linear rails instead of v-wheels.
-This is the repo for the current version: [current repo](https://github.com/c3am/corexy-vslot-3dprinter)
+This is the repo for the current version: [current repo](https://github.com/c3am/compact-corexy-3dprinter)
 
 This printer is a cheap enclosed corexy 3d-printer that uses v-wheels.
 It has a 180mm cubed print volume and an air exhaust.
